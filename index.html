@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <title>YouTube Page</title>
+  </head>
+  <body>
+    <main>
+      <nav>
+        <div class="nav-groups">
+          <div id="hamburger-menu-container">
+            <img src="img/icons8-menu.svg" id="hamburger-menu" />
+          </div>
+          <div id="youtube-logo-container">
+            <img
+              src="https://img.icons8.com/color/48/000000/youtube-play.png"
+              id="youtube-logo"
+            />
+            <p id="youtube-logo-text">YouTube</p>
+          </div>
+        </div>
+        <div class="nav-groups">
+          <input type="text" placeholder="Search" id="search-input" />
+          <button id="search-button-container">
+            <img src="img/icons8-search.svg" id="search-button-icon" />
+          </button>
+        </div>
+        <div class="nav-groups">
+          <div class="nav-icons">
+            <img src="img/video-plus.svg" />
+          </div>
+          <div class="nav-icons">
+            <img src="img/apps.svg" />
+          </div>
+          <div class="nav-icons">
+            <img src="img/dots-vertical.svg" />
+          </div>
+          <div id="sign-in">
+            <img src="img/account-circle.svg" />
+            <p>SIGN IN</p>
+          </div>
+        </div>
+      </nav>
+      <div id="content">
+        <div id="content-group-1">
+          <div id="main-video-container">
+            <iframe
+              src="https://www.youtube.com/embed/yfoY53QXEnI"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              id="main-video"
+            ></iframe>
+          </div>
+          <div id="main-video-title">
+            CSS Crash Course For Absolute Beginners
+          </div>
+          <div id="stats-shares-container">
+            <div id="stats-info">2,962,498 views * Jul 19, 2017</div>
+            <div id="shares-icons-container">
+              <div id="like-dislike-container">
+                <div id="thumbs-up" class="share-icons">
+                  <img src="img/thumb-up.svg" />
+                  <p>62K</p>
+                </div>
+                <div id="thumbs-down" class="share-icons">
+                  <img src="img/thumb-down.svg" />
+                  <p>283</p>
+                </div>
+              </div>
+              <div class="share-icons">
+                <img src="img/share.svg" />
+                <p>SHARE</p>
+              </div>
+              <div class="share-icons">
+                <img src="img/playlist-plus.svg" />
+                <p>SAVE</p>
+              </div>
+              <div id="options" class="share-icons">
+                <img src="img/dots-horizontal.svg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div id="bio-container">
+            <div id="bio-group-1">
+              <div id="profile-container">
+                <div id="profile-picture">
+                  <img src="img/profile-pic.jpeg" alt="" />
+                </div>
+                <div id="channel-name-container">
+                  <div id="channel-name">Traversy Media</div>
+                  <div id="subscriber-count">1.53M subscribers</div>
+                </div>
+              </div>
+              <div id="subscribe-container">
+                <div id="subscribe-button">SUBSCRIBE</div>
+                <div id="notification"></div>
+              </div>
+            </div>
+            <div id="bio-group-2">
+              <div id="description">
+                In this video I will cram as much as possible about CSS. We will
+                be looking at styles, selectors, declarations, etc. We will
+                build a CSS cheat sheet that you can keep as a resource and we
+                will also create a basic website layout. We are using CSS3 but
+                mostly the basics. I will be creating
+                <p id="show-more">SHOW MORE</p>
+              </div>
+            </div>
+          </div>
+          <div id="comments">
+            <div>
+              <p>2,060 Comments</p>
+              <div>
+                <img src="img/sort-variant.svg" alt="" />
+                <p>SORT BY</p>
+              </div>
+            </div>
+            <div>
+              <div id="profile"></div>
+              <input type="text" placeholder="Add a public comment..." />
+            </div>
+          </div>
+        </div>
+        <div id="recom-videos-container">
+          <div class="recom-videos">
+            <div class="recom-videos-thumbnail"></div>
+            <div>
+              <p>title of the videos</p>
+              <p>channel name</p>
+              <p>200K views * 2 weeks ago</p>
+            </div>
+          </div>
+          <div class="recom-videos">
+            <div class="recom-videos-thumbnail"></div>
+            <div>
+              <p>title of the videos</p>
+              <p>channel name</p>
+              <p>200K views * 2 weeks ago</p>
+            </div>
+          </div>
+          <div class="recom-videos">
+            <div class="recom-videos-thumbnail"></div>
+            <div>
+              <p>title of the videos</p>
+              <p>channel name</p>
+              <p>200K views * 2 weeks ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
