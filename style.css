@@ -98,10 +98,8 @@ nav {
 /* content */
 
 #content {
-  border: 1px solid black;
   display: flex;
   margin: 30px 80px;
-  height: 700px;
 }
 
 #content-group-1 {
@@ -336,11 +334,43 @@ nav {
 
 .view-reply-container {
   display: flex;
+  align-items: center;
+}
+
+.view-reply-container img {
   cursor: pointer;
 }
 
 .view-reply-container p {
-  font: 14px;
+  font-size: 14px;
   color: #3ea6ff;
   margin-top: 10px;
+  cursor: pointer;
+}
+
+/* Recommended videos */
+
+.recom-videos {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.recom-video-info {
+  margin-left: 10px;
+}
+
+.recom-video-title {
+  font-size: 14px;
+}
+
+.recom-video-channel {
+  font-size: 12px;
+  margin-top: 5px;
+  color: #aaaaaa;
+}
+
+.recom-video-stats {
+  font-size: 12px;
+  margin-top: 5px;
+  color: #aaaaaa;
 }
