@@ -104,6 +104,7 @@ nav {
 
 #content-group-1 {
   width: 70%;
+  min-width: 407px;
 }
 
 #recom-videos-container {
